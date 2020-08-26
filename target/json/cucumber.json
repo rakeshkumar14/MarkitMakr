@@ -1,0 +1,232 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-26T13:10:42.104Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24753000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.Hooks.BeforeSteps()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": ": Edit the event listing detials",
+        "description": "  Check the details are updated on EVent listing View page in MMCC\n  Check the event listing details on Client sites.",
+        "id": "event-listings-provides-a-list-of-companies-that-participate-in-a-particular-event-edition.;:-edit-the-event-listing-detials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14179000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Open the client site",
+            "match": {
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.open_Clientsite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 808000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Catelouge Page is display",
+            "match": {
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.page_is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 401000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Input the exhibitor to search",
+            "match": {
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.input_Exhibitor_To_Search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3402000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Click Search button",
+            "match": {
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.I_Press_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5426000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Click the first exhibitor link",
+            "match": {
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.openfirstExhibitor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3500000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "verify \"Client Telephone\" is correct expected is \"+919899877654\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Client Telephone",
+                  "offset": 8
+                },
+                {
+                  "val": "+919899877654",
+                  "offset": 50
+                }
+              ],
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.verify_Label_Text_At_clientsite(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 625000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "verify \"Client Country\" is correct expected is \"India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Client Country",
+                  "offset": 8
+                },
+                {
+                  "val": "India",
+                  "offset": 48
+                }
+              ],
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.verify_Label_Text_At_clientsite(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1222000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "verify \"Client Fax\" is correct expected is \"+987654321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Client Fax",
+                  "offset": 8
+                },
+                {
+                  "val": "+987654321",
+                  "offset": 44
+                }
+              ],
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.verify_Label_Text_At_clientsite(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 658000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify \"Client Email\" is correct expected is \"rakesh.kumar.in@informa.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Client Email",
+                  "offset": 8
+                },
+                {
+                  "val": "rakesh.kumar.in@informa.com",
+                  "offset": 46
+                }
+              ],
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.verify_Label_Text_At_clientsite(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 785000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify \"Client StreetAddress1\" is correct expected is \"Street Address Example\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Client StreetAddress1",
+                  "offset": 8
+                },
+                {
+                  "val": "Street Address Example",
+                  "offset": 55
+                }
+              ],
+              "location": "net.serenity.bdd.junit.cucumber.stepDef.CheckEventListingStepDef.verify_Label_Text_At_clientsite(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Event Listings provides a list of companies that participate in a particular Event Edition.",
+    "description": "A single Event listing is a version of a company profile that is specific to that Event Edition.\nThe company profile provides a description of a company that participate in a particular Event.",
+    "id": "event-listings-provides-a-list-of-companies-that-participate-in-a-particular-event-edition.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/MMCC/CheckEventListing.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
