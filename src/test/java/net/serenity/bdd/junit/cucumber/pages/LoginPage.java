@@ -41,7 +41,7 @@ public class LoginPage extends CommanAppObject{
 	}
 	
 	public void loginClientsite() {
-		getDriver().get("https://informa-qa64.adobecqms.net/content/informa/gulf-traffic/en/exhibit/exhibitor-catalogue.html");
+		getDriver().get("https://informa:informa@informa-qa64.adobecqms.net/content/informa/gulf-traffic/en/exhibit/exhibitor-catalogue.html");
 		
 	}
 
