@@ -82,7 +82,8 @@ public class ClientHomePage extends PageObject {
 	
 	@FindBy(xpath="//input[@class='cmp-exhibitorlisting__search-field cmp-exhibitorlisting__search-field--query']")
 	private WebElementFacade ed_SearchExhibitors;
-	@FindBy(xpath="//button[@class='cmp-exhibitorlisting__search-action cmp-exhibitorlisting__search-action--search']")
+//	@FindBy(xpath="//button[@class='cmp-exhibitorlisting__search-action cmp-exhibitorlisting__search-action--search']")
+	@FindBy(xpath="//div[@class='cmp-exhibitorlisting__search-actions']")
 	private WebElementFacade SearchButton;
 	
 	//@FindBy(xpath="//div[@class='cmp-exhibitorlisting__listings']/div[2]/div[2]")

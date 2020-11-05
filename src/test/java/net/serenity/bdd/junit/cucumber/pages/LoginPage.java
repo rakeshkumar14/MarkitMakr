@@ -37,7 +37,7 @@ public class LoginPage extends CommanAppObject{
 		LoginUserNameField.sendKeys(dataprovider.getUserName());
 		LoginPasswordField.sendKeys(dataprovider.getPassword());
 		LoginButton.click();*/
-		getDriver().get("https://informa-qa64.adobecqms.net/content/informa/gulf-traffic/en/exhibit/exhibitor-catalogue.html");
+		getDriver().get("https://informa:informa@informa-qa64.adobecqms.net/content/informa/gulf-traffic/en/exhibit/exhibitor-catalogue.html");
 	}
 	
 	public void loginClientsite() {

@@ -42,16 +42,16 @@ Scenario Outline:: Edit the event listing detials
 And Open the client site
 Then Catelouge Page is display
 And Input the exhibitor to search
-And Click Search button
-And Click the first exhibitor link 
+#And Click Search button
+#And Click the first exhibitor link 
 #And Get the facebook link URL
 #And Get the "Client Facebook social" URL
 #And Get the "Client Instagram social" URL
-And verify "Client Telephone" is correct expected is "<Phone>"
-And verify "Client Country" is correct expected is "<Country>"
-And verify "Client Fax" is correct expected is "<Fax>"
-And verify "Client Email" is correct expected is "<Email>"
-And verify "Client StreetAddress1" is correct expected is "<StreetAddress1>"
+#And verify "Client Telephone" is correct expected is "<Phone>"
+#And verify "Client Country" is correct expected is "<Country>"
+#And verify "Client Fax" is correct expected is "<Fax>"
+#And verify "Client Email" is correct expected is "<Email>"
+#And verify "Client StreetAddress1" is correct expected is "<StreetAddress1>"
 #And verify "Client City" is correct expected is "<City>"
 #And verify "Client ZipCode" is correct expected is "<ZipCode>"
 #And verify "Client SalesPackage" is correct expected is "<Country>"
