@@ -26,7 +26,7 @@ public class Hooks extends PageObject  {
 		getDriver().manage().window().maximize();
 		driver.findElement(By.xpath("//*[@id='edit-name']")).sendKeys("rak14@in.ibm.com");
 		driver.findElement(By.xpath("//*[@id='edit-pass']")).sendKeys("pass00@14");
-		driver.findElement(By.xpath("//*[@id='edit-submit']")).click();
+		driver.findElement(By.xpath("//*[@id='edit-submit--2']")).click();
 			
 	
 	 }
