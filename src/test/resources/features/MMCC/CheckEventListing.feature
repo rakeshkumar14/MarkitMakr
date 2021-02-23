@@ -9,9 +9,9 @@ The company profile provides a description of a company that participate in a pa
 Scenario Outline:: Edit the event listing detials
   Check the details are updated on EVent listing View page in MMCC
   Check the event listing details on Client sites.
-#Given EventListing tab is avialble on left menu 
-#When input "<eventListing>" text in "Search EventListing" field
-#And I Click the "Search Button" field
+Given EventListing tab is avialble on left menu 
+When input "<eventListing>" text in "Search EventListing" field
+And I Click the "Search Button" field
 #And I open first event listing
 #And Click the "<eventListing>" link
 #And I click Edit Event Listing link
